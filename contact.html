@@ -1,1 +1,50 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Skyline Services</title>
+<link rel="stylesheet" href="assets/css/styles.css"><script defer src="assets/js/main.js"></script>
+</head><body>
+<header class="site-header"><div class="container header-inner">
+  <a class="brand" href="index.html"><span class="logo">S</span><span>Skyline Services</span></a>
+  <nav id="nav" class="nav">
+    <a href="services.html">Services</a><a href="gallery.html">Gallery</a><a href="reviews.html">Reviews</a><a href="blog.html">Blog</a>
+    <a href="contact.html" class="btn small">Contact</a>
+  </nav><button class="nav-toggle" onclick="toggleNav()">☰</button></div></header>
+<main>
+<section class="section"><div class="container">
+  <h1>Let’s Get Your Panels Sparkling Again</h1>
+  <p><strong>Phone:</strong> <a href="tel:0490019887">0490 019 887</a></p>
+  <p><strong>Email:</strong> <a href="mailto:Jed@skylineservices.co">Jed@skylineservices.co</a> &nbsp;|&nbsp; <a href="mailto:Dylan@skylineservices.co">Dylan@skylineservices.co</a></p>
+  <p><strong>Service Area:</strong> All of Sydney</p>
 
+  <h2 id="book">Book a Service</h2>
+  <!-- Mailto fallback. For a real backend, switch to Formspree: https://formspree.io/ -->
+  <form class="form" action="mailto:Jed@skylineservices.co,Dylan@skylineservices.co" method="post" enctype="text/plain">
+    <div class="row">
+      <input class="input" name="Name" placeholder="Your Name" required>
+      <input class="input" type="email" name="Email" placeholder="Your Email" required>
+    </div>
+    <div class="row">
+      <input class="input" name="Phone" placeholder="Phone" required>
+      <select class="input" name="Service">
+        <option>Solar Panel Cleaning</option><option>Nano Coating / Protective Solution</option>
+        <option>Roof Washing</option><option>Bird Proofing</option>
+        <option>Pressure Washing</option><option>Window Cleaning</option>
+      </select>
+    </div>
+    <textarea name="Message" placeholder="Tell us about your property (levels, access, number of panels)"></textarea>
+    <button class="btn" type="submit">Send Enquiry</button>
+    <a class="btn outline" id="quote" href="mailto:Jed@skylineservices.co?subject=Quote%20Request%20%E2%80%94%20Skyline%20Services&body=Hi%20Skyline%20Team%2C%0A%0AMy%20name%20is%20...%20and%20I%27d%20like%20a%20quote%20for%20...">Email Us</a>
+  </form>
+
+  <div style="margin-top:20px">
+    <a class="btn" href="https://instagram.com/skylineservices.au" target="_blank" rel="noopener">Instagram @skylineservices.au</a>
+    <a class="btn outline" href="https://g.page/r/CXvnCNjNp8g5EAE/review" target="_blank" rel="noopener">Read Our Google Reviews</a>
+  </div>
+</div></section>
+</main>
+<footer class="site-footer"><div class="container footer-grid">
+  <div><h4>Skyline Services</h4><p>Sydney’s Solar Cleaning &amp; Maintenance Specialists.</p><p><strong>Service Area:</strong> All of Sydney</p></div>
+  <div><h4>Contact</h4><p><a href="tel:0490019887">0490 019 887</a></p><p><a href="mailto:Jed@skylineservices.co">Jed@skylineservices.co</a></p><p><a href="mailto:Dylan@skylineservices.co">Dylan@skylineservices.co</a></p></div>
+  <div><h4>Social</h4><p><a href="https://instagram.com/skylineservices.au" target="_blank">Instagram</a></p><p><a href="https://g.page/r/CXvnCNjNp8g5EAE/review" target="_blank">Google Reviews</a></p></div>
+</div><div class="container footer-bottom"><small>© Skyline Services</small></div></footer>
+<a class="floating-call" href="tel:0490019887">Call Now</a></body></html>
